@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrape Results</title>
+</head>
+<body style="background-color: aliceblue;">
+    <h1>Programmes offered in this faculty:</h1>
+    {% if data %}
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Details</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in data %}
+                    <tr>
+                        <td>{{ item['Title'] }}</td>
+                        <td>{{ item['Details'] }}</td>
+                        <td>{{ item['Description'] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No data found.</p>
+    {% endif %}
+    <a href="/">Go back</a>
+</body>
+</html>

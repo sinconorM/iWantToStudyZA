@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wits University Scraper</title>
+    <!--<link rel ="stylesheet" href="../static/style.css">-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+    <h1>See Undergraduate Programs offered at the University of Witwatersrand</h1>
+    <form action="/scrape" method="post">
+        <label for="faculty">Choose a faculty:</label>
+        <select name="faculty" id="faculty">
+            <option value="Science">Science</option>
+            <option value="Health Science">Health Science</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Commerce, Law & Management">Commerce, Law & Management</option>
+            <option value="Humanities">Humanities</option>
+        </select>
+        <input type="submit" value="search">
+    </form>
+</body>
+</html>
