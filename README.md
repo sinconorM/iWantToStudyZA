@@ -19,7 +19,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/iWantToStudyZA.git
+    git clone https://github.com/sinconorM/iWantToStudyZA.git
     cd iWantToStudyZA
     ```
 
@@ -43,5 +43,5 @@ The project is currently under development and not yet complete. Contributions a
 
 ## Future Enhancements
 - Expand the database to include all public universities in South Africa.
-- Implement a more
+- Implement a more user friendly interface with dynamic style elements.
 
