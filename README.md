@@ -44,4 +44,5 @@ The project is currently under development and not yet complete. Contributions a
 ## Future Enhancements
 - Expand the database to include all public universities in South Africa.
 - Implement a more user friendly interface with dynamic style elements.
+- Host the website on platforms like Heroku or Vercel.
 
