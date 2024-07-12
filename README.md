@@ -1,13 +1,47 @@
 # iWantToStudyZA
 
-This is going to be a website where prospective university students can see which universities offer which programmes.
+## Overview
+iWantToStudyZA is a website designed to help prospective university students in South Africa find information about which universities offer specific programs. It aims to be an all-in-one platform where users can get detailed information about any degree offered at all public universities in South Africa.
 
-It is supposed to be an all-in-one platform where you can get information about any degree you want to study at all public universities in South Africa.
+**Note:** The project is still in development and currently works only locally.
 
-It is not complete as of yet.
+## Features
+- Browse undergraduate programs offered by various faculties at South African public universities.
+- User-friendly interface to search and filter programs based on faculty.
 
-the project only works locally at he moment by doing the following:
-1. run the application in the terminal with python app.py
-2. go to a web browser of your choosing and go to http://127.0.0.1:5000/
+## Technologies Used
+- **Web Development:** HTML, CSS
+- **Web Scraping:** Python, BeautifulSoup
+- **Web Framework:** Flask
 
-This project is a combination of my recently acquired skills in Web Development (HTML & CSS) and web scraping with python and BeautifuleSoup.
+## Installation and Usage
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/iWantToStudyZA.git
+    cd iWantToStudyZA
+    ```
+
+2. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. Run the application:
+    ```sh
+    python app.py
+    ```
+
+4. Open a web browser and go to:
+    ```
+    http://127.0.0.1:5000/
+    ```
+
+## Project Status
+The project is currently under development and not yet complete. Contributions and suggestions are welcome!
+
+## Future Enhancements
+- Expand the database to include all public universities in South Africa.
+- Implement a more
+
