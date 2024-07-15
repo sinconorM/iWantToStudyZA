@@ -1,0 +1,45 @@
+body{
+    background-color: aliceblue;
+
+    
+}
+
+/*button{
+    transform: translate(10px);
+}*/
+
+#one{
+    transform: translateY(10px);
+    padding-left: 26px;
+    padding-right: 27px;
+}
+#two{
+    transform: translateY(20px);
+    padding-left: 36px;
+    padding-right: 36px;
+}
+#three{
+    transform: translateY(30px);
+    padding-left: 28px;
+    padding-right: 28px;
+}
+#four{
+    transform: translateY(40px);
+    padding-left: 15px;
+    padding-right: 16px;
+}
+#five{
+    transform: translateY(50px);
+    padding-left: 32px;
+    padding-right: 32px;
+}
+#six{
+    transform: translateY(60px);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#seven{
+    transform: translateY(70px);
+    padding-left: 15px;
+    padding-right: 15px;
+}

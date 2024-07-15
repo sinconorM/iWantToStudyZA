@@ -33,8 +33,15 @@ def undergrad(url_string):
 
     return data
 
+#@app.route('/')
+#def index():
+#    return render_template('indexx.html')
 @app.route('/')
-def index():
+def home():
+    return render_template('landingPage.html')
+
+@app.route('/wits')
+def wits():
     return render_template('index.html')
 
 @app.route('/scrape', methods=['POST'])
